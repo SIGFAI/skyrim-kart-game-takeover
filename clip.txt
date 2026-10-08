@@ -1,0 +1,7 @@
+Kart Game Takeover - moments the clip must show (in order)
+1. [x] Player in a red kart on the starting grid in Riverwood with fox, elk, chicken and goat rivals in karts beside; countdown 3-2-1-GO appears.
+2. [x] The pack launches around the circuit with dust trails; the camera follows the player's kart.
+3. [x] The player drives through floating spinning "?" boxes and gets a power-up announcement.
+4. [ ] A homing shell (Skyrim fire explosion) hits a rival: it spins out, burns and takes damage; bananas make karts slip.
+5. [x] Rival animal drivers can die from the hits and the kart is wrecked.
+(5: rider death not seen in the preview; shells do 38 damage, kills are possible)

@@ -1,0 +1,176 @@
+{
+ "records": [
+  {
+   "type": "Static",
+   "from": "HandCart02",
+   "id": "SigfKartRed",
+   "set": {
+    "Model.File": "sigf\\kart_red.nif"
+   }
+  },
+  {
+   "type": "Static",
+   "from": "HandCart02",
+   "id": "SigfKartBlue",
+   "set": {
+    "Model.File": "sigf\\kart_blue.nif"
+   }
+  },
+  {
+   "type": "Static",
+   "from": "HandCart02",
+   "id": "SigfKartGreen",
+   "set": {
+    "Model.File": "sigf\\kart_green.nif"
+   }
+  },
+  {
+   "type": "Static",
+   "from": "HandCart02",
+   "id": "SigfKartPurple",
+   "set": {
+    "Model.File": "sigf\\kart_purple.nif"
+   }
+  },
+  {
+   "type": "Static",
+   "from": "HandCart02",
+   "id": "SigfQBox",
+   "set": {
+    "Model.File": "sigf\\qbox.nif"
+   }
+  },
+  {
+   "type": "Static",
+   "from": "HandCart02",
+   "id": "SigfBanana",
+   "set": {
+    "Model.File": "sigf\\banana.nif"
+   }
+  },
+  {
+   "type": "Static",
+   "from": "HandCart02",
+   "id": "SigfShell",
+   "set": {
+    "Model.File": "sigf\\shell.nif"
+   }
+  },
+  {
+   "type": "Npc",
+   "from": "EncFox",
+   "id": "SigfFoxRacer",
+   "set": {
+    "Name": "Rocket Fox",
+    "AIData.Aggression": "Unaggressive",
+    "AIData.Confidence": "Foolhardy",
+    "AIData.Assistance": "HelpsNobody"
+   },
+   "scripts": [
+    {
+     "name": "SigfRacer",
+     "properties": {
+      "Tag": "fox"
+     }
+    }
+   ]
+  },
+  {
+   "type": "Npc",
+   "from": "EncElk",
+   "id": "SigfElkRacer",
+   "set": {
+    "Name": "Antler Andy",
+    "AIData.Aggression": "Unaggressive",
+    "AIData.Confidence": "Foolhardy",
+    "AIData.Assistance": "HelpsNobody"
+   },
+   "scripts": [
+    {
+     "name": "SigfRacer",
+     "properties": {
+      "Tag": "elk"
+     }
+    }
+   ]
+  },
+  {
+   "type": "Npc",
+   "from": "EncChicken",
+   "id": "SigfChickenRacer",
+   "set": {
+    "Name": "Cluck Norris",
+    "AIData.Aggression": "Unaggressive",
+    "AIData.Confidence": "Foolhardy",
+    "AIData.Assistance": "HelpsNobody"
+   },
+   "scripts": [
+    {
+     "name": "SigfRacer",
+     "properties": {
+      "Tag": "chicken"
+     }
+    }
+   ]
+  },
+  {
+   "type": "Npc",
+   "from": "EncGoatDomestic",
+   "id": "SigfGoatRacer",
+   "set": {
+    "Name": "Billy Gruff",
+    "AIData.Aggression": "Unaggressive",
+    "AIData.Confidence": "Foolhardy",
+    "AIData.Assistance": "HelpsNobody"
+   },
+   "scripts": [
+    {
+     "name": "SigfRacer",
+     "properties": {
+      "Tag": "goat"
+     }
+    }
+   ]
+  },
+  {
+   "type": "Explosion",
+   "from": "FXdustDropSmExplosion",
+   "id": "SigfDustSm",
+   "set": {
+    "Radius": 0,
+    "Damage": 0,
+    "Force": 0,
+    "ISRadius": 0
+   }
+  },
+  {
+   "type": "Explosion",
+   "from": "FXdustDropMedExplosion",
+   "id": "SigfDustMed",
+   "set": {
+    "Radius": 0,
+    "Damage": 0,
+    "Force": 0,
+    "ISRadius": 0
+   }
+  },
+  {
+   "type": "Explosion",
+   "from": "Fireball01ImpactExplosion",
+   "id": "SigfBlast",
+   "set": {
+    "Radius": 0,
+    "Damage": 0,
+    "Force": 0,
+    "ISRadius": 0
+   }
+  }
+ ],
+ "quests": {
+  "SigfDemo": {
+   "properties": {
+    "Mod": "@SigfMod"
+   }
+  }
+ }
+}
